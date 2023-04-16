@@ -18,7 +18,6 @@ public class Main {
         ex6("Kate\tSmith\t20\nPaul\tGreen\t25\nMike\tBlack\t23");
     }
 
-
     private static void ex1() { //ctrl + alt + m - вынести метод  shift + ctrl + вниз / вверх  ctrl + alt + l - форматирование Shift F6 - автозамена
         Scanner myScanner = new Scanner(System.in);
         System.out.println("Введите Ваше имя: ");
