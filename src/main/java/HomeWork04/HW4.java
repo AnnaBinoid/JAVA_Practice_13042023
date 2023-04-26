@@ -56,7 +56,7 @@ public class HW4 {
     private static void invertedLinkedList() {
         LinkedList<Integer> list = createLinkedList();
         System.out.println(list);
-        invertList(list);
+        System.out.println(invertList(list));
 
     }
 
@@ -73,7 +73,7 @@ public class HW4 {
         return li;
     }
 
-    private static void invertList(LinkedList<Integer> newList) {
+    private static LinkedList<Integer> invertList(LinkedList<Integer> newList) {
         int temp = 0;
         for (int i = 0; i < newList.size() / 2; i++) {
 
@@ -86,7 +86,7 @@ public class HW4 {
             newList.add(newList.size() - i, temp);
 
         }
-        System.out.println(newList);
+        return newList;
     }
 
 }
