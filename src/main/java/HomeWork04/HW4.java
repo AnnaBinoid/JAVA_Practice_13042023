@@ -75,7 +75,7 @@ public class HW4 {
 
     private static void invertList(LinkedList<Integer> newList) {
         int temp = 0;
-        for (int i = 0; i < newList.size()/2; i++) {
+        for (int i = 0; i < newList.size() / 2; i++) {
 
             temp = newList.get(i);
 
