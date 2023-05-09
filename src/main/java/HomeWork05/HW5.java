@@ -272,7 +272,6 @@ public class HW5 {
                 .replace("=", " - ")
                 .substring(1, reverse.toString().length() + 1));
     }
-
 }
 
 
