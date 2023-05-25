@@ -20,5 +20,6 @@ public class Main {
         Product saledProduct2 = apparat.saleProduct("Кола");
         System.out.println(saledProduct2);
         System.out.println(apparat);
+
     }
 }
